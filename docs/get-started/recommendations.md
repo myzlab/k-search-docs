@@ -19,28 +19,11 @@ Likewise, another recommendation is that for each table present in the database,
 
 An exception does not always have to be a headache. We'll look at the positive side of using exceptions in conjunction with an `ExceptionHandler`.
 
-An `ExceptionHandler` will allow us to control the exceptions thrown that we want in the API in such a way that the response always has the appropriate response code for each occasion (a 500 error should never be presented as an API response).
+An `ExceptionHandler` will allow you to control the exceptions thrown that we want in your API Rest in such a way that the response always has the appropriate response code for each occasion (a 500 error code should never be presented as your API Rest response).
 
-In this sense, we will tell to `ExceptionHandler` that always handle exceptions of the `KException` type, since they will be exceptions that we will be throwing intentionally and constantly as guard clauses.
+In this sense, we will tell to `ExceptionHandler` that always catch exceptions of the `KException` type, since they will be exceptions that we will be throwing intentionally and constantly as guard clauses.
 
-We will explain how the `KException` and the `ExceptionHandler` should work as guard clauses with the following example:
-
-### Example:
-
-An API is required that given the ID of a client:
-
- - Check if the client exists
-
-    1. If the client does not exist, return the "Not Found" message with a 404 response code.
-    2. If client exists, return the requested information with a 200 response code.
-
-Ilustraremos el flujo de código de la solución:
-
-IMAGE
-
-### Step 1:
-
-The first thing we'll do is tell to SpringBoot that handle any exceptions of type KException. To do this, we need to add one ExceptionHandler to each RestController you'll be working on. You can create a generic RestController and apply inheritance from the others RestController, so that you define the ExceptionHandler only once.
+To do this, we need to add one `ExceptionHandler` to each RestController you'll be working on. You can create a generic RestController and apply inheritance from the others RestController, so that you define the ExceptionHandler only once.
 
 ```java showLineNumbers
 import java.time.LocalDateTime;

@@ -73,7 +73,8 @@
   --ifm-h3-vertical-rhythm-top: 1.4 !important;
 }
 
-.navbar__title {
+.navbar__title,
+.ksearch-font-family {
   font-family: 'Trade Winds', cursive !important;
 }
 
@@ -130,3 +131,11 @@ pre code > span:nth-of-type(even) {
 .navbar__link--active {
   color: #25c2a0;
 } */
+
+.header--imageLogo {
+  border-radius: 30px;
+  box-shadow: rgb(0 0 0 / 30%) 2px 2px 5px 0px;
+  width: 12rem;
+  background: white;
+  padding: 1em 2.5em;
+}

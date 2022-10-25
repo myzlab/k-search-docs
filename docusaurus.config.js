@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'KSearch',
-  tagline: '',
+  tagline: 'A Java library to write SQL statements and manipulate the extracted data in a simple and intuitive way',
   url: 'https://docs.ksearch.myzlab.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -85,57 +85,57 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Select Statement',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Insert Statement',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Update Statement',
-                to: '/docs/intro',
-              },
-              {
-                label: 'Delete Statement',
-                to: '/docs/intro',
-              }
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'Docs',
+          //   items: [
+          //     {
+          //       label: 'Select Statement',
+          //       to: '/docs/intro',
+          //     },
+          //     {
+          //       label: 'Insert Statement',
+          //       to: '/docs/intro',
+          //     },
+          //     {
+          //       label: 'Update Statement',
+          //       to: '/docs/intro',
+          //     },
+          //     {
+          //       label: 'Delete Statement',
+          //       to: '/docs/intro',
+          //     }
+          //   ],
+          // },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Stack Overflow',
+          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     },
+          //     {
+          //       label: 'Discord',
+          //       href: 'https://discordapp.com/invite/docusaurus',
+          //     },
+          //     {
+          //       label: 'Twitter',
+          //       href: 'https://twitter.com/docusaurus',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
+          //     },
+          //     {
+          //       label: 'GitHub',
+          //       href: 'https://github.com/facebook/docusaurus',
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} KSearch. Built with Docusaurus.`,
       },
