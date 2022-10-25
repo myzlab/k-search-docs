@@ -47,12 +47,3 @@ public class CommonController {
 
 }
 ```
-### Step 2:
-
-Validar si existe. si no existe, arrojar 404, si existe 200.
-
-### Step 3:
-
-### Step 4:
-
-Un KException contiene el código de respuesta
