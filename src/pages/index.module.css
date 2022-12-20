@@ -21,3 +21,21 @@
   align-items: center;
   justify-content: center;
 }
+
+.redAlert {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: red;
+  left: 0;
+  color: white;
+}
+
+.redAlert a {
+  font-weight: 700;
+  color: white;
+}
+
+[data-theme='dark'] .redAlert a {
+  color: white;
+}

@@ -5,11 +5,11 @@
  */
 
 /* You can override the default Infima variables here. */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-  font-family: 'Noto Sans JP', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 :root {
@@ -49,15 +49,15 @@
 }
 
 .markdown h1:first-child {
-  --ifm-h1-font-size: 2.4rem;
+  --ifm-h1-font-size: 2.6rem;
 }
 
 .markdown > h2 {
-  --ifm-h2-font-size: 1.6rem;
+  --ifm-h2-font-size: 1.8rem;
 }
 
 .markdown > h3 {
-  --ifm-h3-font-size: 1.2em;
+  --ifm-h3-font-size: 1.4em;
   margin-bottom: calc( var(--ifm-heading-vertical-rhythm-bottom) * var(--ifm-leading) );
   margin-top: calc(var(--ifm-h3-vertical-rhythm-top) * var(--ifm-leading));
 }
@@ -65,7 +65,7 @@
 .markdown > p,
 .markdown > ul,
 .markdown > ol {
-  font-size: 0.85em;
+  font-size: 0.95em;
 }
 
 .markdown {
@@ -75,7 +75,7 @@
 
 .navbar__title,
 .ksearch-font-family {
-  font-family: 'Trade Winds', cursive !important;
+  font-family: 'Amita', cursive !important;
 }
 
 code,
